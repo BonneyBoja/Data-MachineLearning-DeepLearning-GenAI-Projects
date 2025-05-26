@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src ="Profile_Pic.jpeg" alt="Profile Picture" class="profile-pic">
+            <h1>John Brown</h1>
+            <p>Web Developer | Machine Learning Enthusiast | Freelancer</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Project">Projects</a></li>
+            <li><a href="#Contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <section id ="about">
+            <h2>About Me</h2>
+            <div class="card">
+        <p>Hi, I'm John Brown, a passionate web developer with a keen interest in machine learning. I love creating innovative solutions that make a difference. With a background in computer science and hands-on experience in various projects, I am always eager to learn and grow in the tech field.</p>
+            </div>
+        </section>
+        <section id ="skills">
+            <h2>Skills</h2>
+            <div class="card">
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Java</li>
+                <li>Machine Learning (TensorFlow, Scikit-learn)</li>
+                <li>Web Development (React, Node.js)</li>
+                <li>Data Analysis and Visualization</li>
+            </ul>
+            </div>
+            
+        </section>
+        <section id ="projects">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class = "card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website showcasing my skills and projects.</p>
+                </div>
+                <div class = "card">
+                <h3>Machine Learning Model</h3>
+                <p>A predictive analytics model using Python and Scikit-learn.</p>
+                </div>
+                <div class = "card">
+                <h3>Web Application</h3>
+                <p>A task management web application built with React and Node.js.</p>
+                </div>
+            
+            </div>
+        </section>
+        <section id ="contact">
+            <h2>Contact</h2>
+            <p> Email: zerocoolhub@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/johnbrown">linkedin.com/in/johnbrown</a></p>
+            <p>Phone: +2547000000000</p>
+
+            <!-- Contact Section -->
+             <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+             </form>
+           
+        </section>
+
+        <!-- social links -->
+        <section id ="social">
+            <h2>Follow Me</h2>
+            <p>
+                <a href="#">GitHub</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">LinkedIn</a> |
+            </p>
+         </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 John Brown. All rights reserved.</p>
+    </footer>
+</body>
+</html>
